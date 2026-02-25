@@ -1,0 +1,88 @@
+body {
+    background-image: url("./images/early-web-art-02-bg.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* id selector */
+#wrapper {
+    background-color: rgb(255, 252, 227);
+    width: 85%;
+    margin: 0px auto;
+    /* top and bottom are no margin, left and right are automatically equal */
+}
+
+
+/* grouping selector */
+h3, h4, h5 {
+    margin: 2px;
+    margin-left: 20px;
+}
+
+h1 {
+    color: #261d06;
+    font-family: "Sacramento", cursive;
+    font-size: 52px;
+    font-weight: normal;
+    margin-left: 20px;
+
+}
+
+/* descendant selectors */
+header h2 {
+    color: #9e6d23;
+    font-size: 42px;
+    font-family: "Ribeye Marrow", serif;
+    font-weight: normal;
+    margin-left: 20px;
+
+
+}
+
+nav a {
+    color: #e5b029;
+    font-size: 18px;
+    margin-left: 20px;
+
+}
+
+main h2 {
+    color: #261d06;
+    margin-left: 20px;
+
+}
+
+main h3 {
+    margin-top: 30px;
+}
+
+main h4 {
+    font-size: 12px;
+}
+
+main a {
+ color: #996b14;
+ text-decoration: none;
+}
+
+/* pseudo class selector */
+main a:hover {
+    color: #bc9e51;
+}
+
+nav a:hover {
+    color: #bc9e51;
+}
+
+
+/* START FOOTER STYLES */
+span.copyright {
+   color: #c8c8c8; 
+   margin-left: 10px;
+
+}
+
+span.author {
+
+   color: #393638; 
+}
