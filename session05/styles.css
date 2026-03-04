@@ -30,15 +30,12 @@ h1 {
 
 }
 
-/* descendant selectors */
 header h2 {
     color: #9e6d23;
     font-size: 42px;
     font-family: "Ribeye Marrow", serif;
     font-weight: normal;
     margin-left: 20px;
-
-
 }
 
 nav a {
@@ -70,7 +67,6 @@ main a {
  text-decoration: none;
 }
 
-/* pseudo class selector */
 main a:hover {
     color: #bc9e51;
 }
@@ -85,8 +81,6 @@ main {
     padding: 20px;
     border: 1px solid #e5b029;
 }
-
-
 
 div.imageContainer {
     background-color: #fff;
