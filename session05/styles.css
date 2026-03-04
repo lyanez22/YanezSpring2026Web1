@@ -1,0 +1,132 @@
+body {
+    background-image: url("./images/early-web-art-02-bg.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#wrapper {
+    background-color: rgb(255, 252, 227);
+    width: 85%;
+    margin: 0px auto;
+}
+
+p {
+    font-weight: bold;
+    background-color: #9e6d23;
+    color: #fff;
+}
+
+h3, h4, h5 {
+    margin: 2px;
+    margin-left: 20px;
+}
+
+h1 {
+    color: #261d06;
+    font-family: "Sacramento", cursive;
+    font-size: 52px;
+    font-weight: normal;
+    margin-left: 20px;
+
+}
+
+/* descendant selectors */
+header h2 {
+    color: #9e6d23;
+    font-size: 42px;
+    font-family: "Ribeye Marrow", serif;
+    font-weight: normal;
+    margin-left: 20px;
+
+
+}
+
+nav a {
+    color: #e5b029;
+    font-size: 18px;
+    margin-left: 20px;
+    text-decoration: none;
+    padding: 8px 15px;
+    border: 2px solid #e5b029;
+    display: inline-block;
+}
+
+main h2 {
+    color: #261d06;
+    margin-left: 20px;
+
+}
+
+main h3 {
+    margin-top: 30px;
+}
+
+main h4 {
+    font-size: 12px;
+}
+
+main a {
+ color: #996b14;
+ text-decoration: none;
+}
+
+/* pseudo class selector */
+main a:hover {
+    color: #bc9e51;
+}
+
+nav a:hover {
+    color: #bc9e51;
+}
+
+header,
+nav,
+main {
+    padding: 20px;
+    border: 1px solid #e5b029;
+}
+
+
+
+div.imageContainer {
+    background-color: #fff;
+    padding: 30px;
+    border: 8px solid #996b14;
+    margin: 40px 20px;
+}
+
+div.imageContainer img {
+    width: 250px;
+    height: 250px;
+    border: 8px solid #e5b029;
+    margin: 20px;
+    padding: 25px;
+    background-color: #bc9e51;
+    background-image: url("./images/early-web-art-03-bg.jpg");
+}
+
+footer {
+    margin-top: 40px;
+    padding: 25px;
+    border-top: 4px solid #e5b029;
+}
+
+footer a {
+    color: #e5b029;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #bc9e51;
+}
+
+span.copyright {
+   color: #c8c8c8; 
+   margin-left: 10px;
+
+}
+
+span.author {
+
+   color: #393638; 
+}
