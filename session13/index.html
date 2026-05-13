@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Session 13</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Nerko+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <img id="creature" src="images/creature.png" />
+    <div class="wrapper">
+
+    <aside class="left"></aside>
+
+    <div id="panel">
+
+        <h2>My Final Project Proposal</h2>
+
+        <p>
+            My website will be about a small creature that gets lost in a huge forest.
+            Over time the creature learns how to survive and live there. 
+            As the user explores the website, they will discover parts of the forest with the creature. 
+        
+        </p>
+
+        <div class="section">
+            <h3>Website Description</h3>
+            <p>
+                The website may include story pages, forest environments,
+                hidden creatures, and exploration sections.
+            </p>
+        </div>
+
+        <div class="section">
+            <h3>Fonts and Colors</h3>
+            <p>
+                I want to use dark shades of green, yellow, and brown to match the forest atmosphere.
+                For fonts, I'm thinking of using typewritter or handwritten styles. 
+            </p>
+        </div>
+
+        <div class="section">
+            <h3>Javascript Element</h3>
+            <p>
+                I think I want to add glowing lights or sounds. 
+                I definetly want to add hidden messages when users interact with objects.
+            </p>
+        </div>
+
+        <div class="section">
+            <h3>p5.js Element</h3>
+            <p>
+                I want to make the leaves move in the background.
+                I also want to make the creature move and interact with the environment.
+            </p>
+        </div>
+
+        <div class="section">
+            <h3>jQuery Element</h3>
+            <p>
+                I want to use fade effects to reveal story information
+                or maybe when loading a image or new page. 
+
+            </p>
+        </div>
+    </div>
+    <aside class="right"></aside>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+
+    <script>
+
+        $(document).ready(function () {
+
+            // this is to initate 
+            $(".section p").hide();
+
+
+            $(".section h3").click(function () {
+                $(this).next("p").slideToggle("fast");
+            });
+
+            $("#creature").click(function () {
+                $(this).animate({
+                    left: "400px"
+                }, 1000);
+            });
+
+            $("h2").hide().fadeIn(2000);
+
+        });
+
+    </script>
+
+</body>
+
+</html>
