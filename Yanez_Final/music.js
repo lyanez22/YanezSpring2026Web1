@@ -1,7 +1,11 @@
 //Sound doesn't play when you open a file directly in your browser 
 //(file://) but works on a local server (http://) because of browser security restrictions
 
-//please note sound will play on live server but the website runs smoother on local server 
+//please note sound will play on live server but the website runs correctly on local server 
+
+//presentation ran on live server for the sake of sound being heard and not running into CORS issues
+//hence it was a deployment issue and not a code quality based issue
+//defer was added to combat this issue
 
 // music integration: 20191229 by Mac DeMarco
 // reasoning for music choice: I feel like it goes well with the vibe of the game
