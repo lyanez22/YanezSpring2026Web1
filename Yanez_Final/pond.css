@@ -1,0 +1,71 @@
+body {
+    background-image: url("images/background-pond.png");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #95d5b2;
+    margin-top: 0px;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 34px;
+    color:antiquewhite;
+    -webkit-text-stroke: #222 1px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 245, 229);
+    background-color: #44635b;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #2dd4bf;
+}
+
+#lotus {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+#lotus-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+p {
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(255, 245, 229);
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+/* grid layout for footer */
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  background-color: #07221e;
+  padding: 30px;
+}

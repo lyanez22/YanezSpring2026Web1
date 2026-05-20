@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mew adventure</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.2/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.2/addons/p5.sound.min.js"></script>
+
+    <script src="movement.js" defer></script>
+    <script src="music.js" defer></script>
+</head>
+
+<body>
+<header>
+    <h1>mew adventure</h1>
+    <p id="intro-text">Let's Explore Together!</p>
+</header>
+
+<nav>
+    <a href="pond.html">Pond</a>
+    <a href="puzzle.html">Puzzle</a>
+</nav>
+
+<main>
+    <section id="game">
+        <div id="ground">
+
+        <!-- mew : a strange cat -->
+        <div id="mew-container">
+           <img id="mew" src="images/mew.png" alt="mew">
+        </div>
+
+        <!--  son : "son im crine" -->
+        <div id="son-container">
+            <p>Click me!</p>
+            <img id="son" src="images/son.png" alt="son">
+        </div>
+    </div>
+
+        <div id="demo">
+            <p>Click arrow keys to move me!</p>
+            <img src="images/demo.png" alt="demo">
+        </div>
+
+        <div class="computa">
+
+            <a href="https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117" target="_blank">
+                <img src="images/computa.png" alt="computer">
+            </a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>Created by Litzy Yanez</p>
+    <p>Sources: 
+    <a href="https://p5js.org">p5.js</a>, 
+    <a href="https://jquery.com">jQuery</a>, 
+    <a href="https://fonts.google.com">Google Fonts</a>, 
+    <a href="https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117">MIT News</a>
+  </p>
+</footer>
+</body>
+</html>

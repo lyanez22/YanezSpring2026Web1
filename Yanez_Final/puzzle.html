@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel= "stylesheet" href="puzzle.css">
+  <title>Euler Path Puzzle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Viaoda+Libre&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="puzzle.js"></script>
+  <script src="music.js"></script>
+</head>
+
+<body>
+ <header>
+  <h1>Euler Path Puzzle</h1>
+  </header>
+  <nav>
+    <a href="pond.html">Pond</a>
+    <a href="index.html">Home</a>
+  </nav>
+
+  <main>
+  <div id="graph">
+    
+    <div class="node" id="A" data-node="A">A</div>
+    <div class="node" id="B" data-node="B">B</div>
+    <div class="node" id="C" data-node="C">C</div>
+    <div class="node" id="D" data-node="D">D</div>
+    <div class="node" id="E" data-node="E">E</div>
+    <div class="node" id="F" data-node="F">F</div>
+    <div class="node" id="G"data-node="G">G</div>
+
+    <div class="edge" id="edge-A-B" data-from="A" data-to="B"></div>
+    <div class="edge" id="edge-A-C" data-from="A" data-to="C"></div>
+    <div class="edge" id="edge-A-D" data-from="A" data-to="D"></div>
+    <div class="edge" id="edge-B-E" data-from="B" data-to="E"></div>
+    <div class="edge" id="edge-C-E" data-from="C" data-to="E"></div>
+    <div class="edge" id="edge-D-E" data-from="D" data-to="E"></div>
+    <div class="edge" id="edge-E-F" data-from="E" data-to="F"></div>
+    <div class="edge" id="edge-E-G" data-from="E" data-to="G"></div>
+    <div class="edge" id="edge-F-G" data-from="F" data-to="G"></div> 
+
+  </div>
+
+  <div id="status">
+  </div>
+
+  <div id="secret" style="display:none;">
+      Good Job! You solved the Euler Path ˚˖𓍢ִ໋❀
+  </div>
+
+  <button id="resetBtn">Reset</button>
+
+  </main>
+  <footer>
+    <p>Created by Litzy Yanez</p>
+    <p>Sources: 
+    <a href="https://jquery.com">jQuery</a> | 
+    <a href="https://fonts.google.com">Google Fonts (Cinzel, Viaoda Libre)</a> | 
+    <a href="https://en.wikipedia.org/wiki/Eulerian_path">Euler Path – Wikipedia</a>
+  </p>
+</footer>
+</body>
+</html>

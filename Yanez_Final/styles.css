@@ -1,0 +1,134 @@
+/* UNIVERSAL STYLES */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background-image: url("images/background-home.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    color: rgb(255, 245, 229);
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 34px;
+    -webkit-text-stroke: #222 1px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 245, 229);
+    text-decoration: 2px solid rgb(194, 158, 100);
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #44635b;
+}
+
+
+#intro {
+    text-align: center;
+    margin-top: 20px;
+    background-size: cover;
+}
+
+
+#mew-container,
+#son-container {
+    position: absolute;
+    z-index: 1;
+}
+
+#mew-container {
+    width: 150px;
+    height: 150px;
+}
+
+#son-container {
+    width: 100px;
+    height: 100px;
+}
+
+#son-container p {
+    position: absolute;
+    top: -20px;
+    left: 50px;
+    transform: translateX(-50%);
+    font-size: 14px;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(255, 245, 229);
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+#mew,
+#son {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#demo {
+    text-align: center;
+    margin: 10px;
+}
+#demo p {
+    font-size: 18px;
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 10px;
+    color: antiquewhite;
+    -webkit-text-stroke: #222 1px;
+}
+
+#demo img {
+    width: 150px;
+}
+
+.computa {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    animation: shake 1.5s infinite;
+    z-index: 0;
+}
+
+.computa img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.computa:hover {
+    animation: none;
+}
+/* grid layout for footer */
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  background-color: #1c8d7c;
+  padding: 30px;
+}
+
+@keyframes shake {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(2px, 0); }
+    50% { transform: translate(0, 0); }
+    75% { transform: translate(-2px, 0); }
+    100% { transform: translate(0, 0); }
+}
+
